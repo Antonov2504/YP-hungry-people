@@ -1,0 +1,42 @@
+.form {
+  display: inline-block;
+  text-align: center;
+}
+
+.form__title {
+  margin-bottom: 20px;
+}
+
+.form__input-container {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.form__item {
+  width: 277px;
+  height: 60px;
+  padding: 0 20px;
+  margin: 0 6px 10px 0;
+  border: 0;
+  background-color: #E5E5E5;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+select.form__item {
+  margin-right: 0;
+  padding: 0 15px;
+  color: rgba(51, 51, 51, 0.7);
+}
+
+.form__item:nth-of-type(even) {
+  margin-right: 0;
+}
+
+.form__handlers {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}

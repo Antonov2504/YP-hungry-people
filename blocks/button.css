@@ -11,6 +11,7 @@
   box-sizing: border-box;
   transition: .3s;
   transition-property: background-color, color;
+  cursor: pointer;
 }
 
 .button:hover {
@@ -27,4 +28,8 @@
   background-color: #bea008;
   border-color: #bea008;
   color: white;
+}
+
+.button_width_wide {
+  width: 100%;
 }
