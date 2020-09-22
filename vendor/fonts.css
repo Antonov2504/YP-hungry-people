@@ -1,0 +1,15 @@
+@font-face {
+  src: url('./../fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+  font-family: 'Open Sans';
+}
+
+@font-face {
+  src: url('./../fonts/Open_Sans/OpenSans-Bold.ttf') format('truetype');
+  font-family: 'Open Sans';
+  font-weight: bold;
+}
+
+@font-face {
+  src: url('./../fonts/Helvetica_Neue/HelveticaNeueCyr-Roman.ttf') format('truetype');
+  font-family: 'Helvetica Neue';
+}
