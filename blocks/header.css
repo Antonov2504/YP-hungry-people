@@ -1,5 +1,6 @@
 .header {
   min-height: 800px;
+  padding: 0;
   background-image: url('./../images/header-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -23,7 +24,7 @@
 .header__date {
   margin: 0;
   transform: translateY(100%) rotate(-90deg);
-  transform-origin: 0% 0%;
+  transform-origin: 0 0;
   font-weight: bold;
   font-size: 12px;
   line-height: 12px;
@@ -38,6 +39,7 @@
 }
 
 .header__subtitle {
+  min-height: initial;
   margin-bottom: 14px;
 }
 
