@@ -76,12 +76,14 @@
   font-size: 18px;
   line-height: 1.56;
   font-weight: bold;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .section__text {
   margin: 0;
   font-size: 14px;
   line-height: 1.71;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .section__image {
