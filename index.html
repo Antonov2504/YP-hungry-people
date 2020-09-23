@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll">
 
 <head>
   <meta charset="UTF-8">
@@ -12,24 +12,24 @@
 <body>
   <div class="page">
     <!-- Header -->
-    <header class="header section section_color_white">
+    <header class="header section section_color_white" id="home">
       <div class="container">
         <div class="header__nav">
           <nav class="menu">
             <ul class="menu__list">
-              <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">About</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">Team</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">Booking</a></li>
+              <li class="menu__item"><a href="#home" class="menu__link menu__link_active">Home</a></li>
+              <li class="menu__item"><a href="#about" class="menu__link">About</a></li>
+              <li class="menu__item"><a href="#team" class="menu__link">Team</a></li>
+              <li class="menu__item"><a href="#booking" class="menu__link">Booking</a></li>
             </ul>
           </nav>
           <img src="./images/logo.svg" alt="Hungry People" class="logo rotation"></img>
           <nav class="menu">
             <ul class="menu__list">
-              <li class="menu__item"><a href="#" class="menu__link">Menu</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">Galerie</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">Events</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+              <li class="menu__item"><a href="#menu" class="menu__link">Menu</a></li>
+              <li class="menu__item"><a href="#galerie" class="menu__link">Galerie</a></li>
+              <li class="menu__item"><a href="#events" class="menu__link">Events</a></li>
+              <li class="menu__item"><a href="#contact" class="menu__link">Contact</a></li>
             </ul>
           </nav>
         </div>
@@ -57,7 +57,7 @@
     <!-- Main -->
     <main class="content">
       <!-- Section About Us -->
-      <section class="section">
+      <section class="section" id="about">
         <div class="container">
           <div class="section__content">
             <div class="section__description section__description_margin_right">
@@ -71,7 +71,7 @@
       </section>
       <!-- End Section About Us -->
       <!-- Section Team -->
-      <section class="team section section_color_white">
+      <section class="team section section_color_white" id="team">
         <div class="container">
           <p class="section__subtitle">Our team</p>
           <div class="section__content section__content_reverse">
@@ -86,7 +86,7 @@
       </section>
       <!-- End Section Team -->
       <!-- Section Book A Table -->
-      <section class="book-a-table section">
+      <section class="book-a-table section" id="booking">
         <div class="container">
           <div class="section__content">
             <div class="section__description section__description_margin_right section__description_align_right">
@@ -147,7 +147,7 @@
       </section>
       <!-- End Section Book A Table -->
       <!-- Section Specialties -->
-      <section class="specialties section section_color_white">
+      <section class="specialties section section_color_white" id="galerie">
         <div class="container">
           <p class="section__subtitle">Specialties</p>
           <div class="section__content section__content_reverse">
@@ -162,7 +162,7 @@
       </section>
       <!-- End Section Specialties -->
       <!-- Section Delicious Menu -->
-      <section class="section">
+      <section class="section" id="menu">
         <div class="container">
           <div class="section__content">
             <div class="section__description section__description_position_center">
@@ -290,7 +290,7 @@
       </section>
       <!-- End Section Delicious Menu -->
       <!-- Section Private Events -->
-      <section class="private-events section section_color_white">
+      <section class="private-events section section_color_white" id="events">
         <div class="container">
           <p class="section__subtitle">Private Events</p>
           <div class="section__content section__content_align_center">
@@ -307,7 +307,7 @@
       </section>
       <!-- End Section Private Events -->
       <!-- Section Contact -->
-      <section class="contact section">
+      <section class="contact section" id="contact">
         <div class="container">
           <div class="section__content section__content_align_center">
             <div class="section__description">

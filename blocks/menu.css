@@ -31,3 +31,7 @@
 .menu__link:hover {
   color: #E8C300;
 }
+
+.menu__link_active {
+  color: #E8C300;
+}
