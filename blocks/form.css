@@ -25,6 +25,10 @@
   box-sizing: border-box;
 }
 
+.form__item:focus {
+  outline-color: #E8C300;
+}
+
 select.form__item {
   margin-right: 0;
   padding: 0 15px;
