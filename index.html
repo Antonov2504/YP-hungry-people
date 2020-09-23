@@ -45,9 +45,9 @@
           </div>
           <nav>
             <ul class="header__social">
-              <li><a href="#" class="header__social-link"><img src="./images/facebook.svg" alt="facebook" class="social__icon"></a></li>
-              <li><a href="#" class="header__social-link"><img src="./images/twitter.svg" alt="twitter" class="social__icon"></a></li>
-              <li><a href="#" class="header__social-link"><img src="./images/instagram.svg" alt="instagram" class="social__icon"></a></li>
+              <li><a href="#" class="header__social-link"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#" class="header__social-link"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#" class="header__social-link"><i class="fab fa-instagram"></i></a></li>
             </ul>
           </nav>
         </div>
@@ -90,25 +90,25 @@
         <div class="container">
           <div class="section__content">
             <div class="section__description section__description_margin_right section__description_align_right">
+              <h2 class="section__title form__title">Book a table</h2>
               <form action="#" class="form section__form">
                 <div class="form__main-container">
-                  <h2 class="section__title form__title">Book a table</h2>
                   <fieldset class="form__input-container">
                     <input type="text"
                            name="name"
                            placeholder="Name"
-                           class="form__item"
+                           class="form__item form__item_count_double"
                            autocomplete="off">
                     <input type="email"
                            name="email"
                            placeholder="Email"
-                           class="form__item">
+                           class="form__item form__item_count_double">
                     <input type="tel"
                            name="phone"
                            placeholder="Phone"
-                           class="form__item">
+                           class="form__item form__item_count_double">
                     <select name="people"
-                            class="form__item">
+                            class="form__item form__item_count_double">
                       <option>People</option>
                       <option>2</option>
                       <option>3</option>
@@ -116,23 +116,27 @@
                       <option>5</option>
                     </select>
                   </fieldset>
-                  <input type="text"
-                         name="date"
-                         placeholder="Date (mm/dd)"
-                         class="form__item"
-                         onfocus="(this.type='date')"
-                         onblur="(this.type='text')">
-                  <select name="time"
-                          class="form__item">
-                    <option>Time</option>
-                    <option>18:00</option>
-                    <option>19:00</option>
-                    <option>20:00</option>
-                    <option>21:00</option>
-                  </select>
+                  <fieldset class="form__input-container">
+                    <input type="text"
+                           name="date"
+                           placeholder="Date (mm/dd)"
+                           class="form__item form__item_count_double"
+                           onfocus="(this.type='date')"
+                           onblur="(this.type='text')">
+                    <select name="time"
+                            class="form__item form__item_count_double">
+                      <option>Time</option>
+                      <option>18:00</option>
+                      <option>19:00</option>
+                      <option>20:00</option>
+                      <option>21:00</option>
+                    </select>
+                  </fieldset>
                 </div>
                 <fieldset class="form__handlers">
-                  <input type="submit" value="Book Now" class="button button_color_yellow button_width_wide">
+                  <input type="submit"
+                         value="Book Now"
+                         class="button button_color_yellow form__button form__button_width_wide">
                 </fieldset>
               </form>
             </div>
@@ -302,9 +306,59 @@
         </div>
       </section>
       <!-- End Section Private Events -->
+      <!-- Section Contact -->
+      <section class="contact section">
+        <div class="container">
+          <div class="section__content section__content_align_center">
+            <div class="section__description">
+              <h2 class="section__title">Contact</h2>
+              <p class="section__heading section__heading_margin_bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
+            </div>
+            <form action="#" class="form form_width_wide">
+              <div class="form__main-container">
+                <fieldset class="form__input-container">
+                  <input type="text"
+                         name="name"
+                         placeholder="Name"
+                         class="form__item form__item_count_triple"
+                         autocomplete="off">
+                  <input type="email"
+                         name="email"
+                         placeholder="Email"
+                         class="form__item form__item_count_triple">
+                  <input type="tel"
+                         name="phone"
+                         placeholder="Phone"
+                         class="form__item form__item_count_triple">
+                  <textarea name="message"
+                            cols="30"
+                            rows="10"
+                            placeholder="Message"
+                            class="form__item form__item_el_message"></textarea>
+                </fieldset>
+                <fieldset class="form__handlers">
+                  <ul class="form__info">
+                    <li class="form__info-item"><span class="form__info-icon"><i class="fas fa-map-marker-alt"></i></span>5th London Boulevard, U.K.</li>
+                    <li class="form__info-item"><span class="form__info-icon"><i class="fas fa-phone"></i></span>+40 729 131 637/+40 726 458 782</li>
+                    <li class="form__info-item"><span class="form__info-icon"><i class="fas fa-envelope"></i></span>office@mindblister.com</li>
+                  </ul>
+                  <input type="submit"
+                         value="Send Message"
+                         class="button button_color_yellow form__button">
+                </fieldset>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- End Section Contact -->
     </main>
     <!-- End Main -->
+    <!-- Footer -->
+    <footer class="footer">© Copyright Mindblister 2019</footer>
+    <!-- End Footer -->
   </div>
+  <script src="https://kit.fontawesome.com/187ecec49e.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
